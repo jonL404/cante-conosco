@@ -35,3 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("year").textContent = new Date().getFullYear();
 });
+
+function janelaDeCantos() {
+      window.location.href = "src/web/cante-com-o-ministerio/index.html";
+    }
