@@ -37,7 +37,3 @@
 - `src/web/style.css`: estilos complementares da navegação e do destaque principal.
 - `src/web/assets/`: imagens e demais recursos visuais do site.
 - `src/public/docs/`: documentos disponibilizados pelo projeto.
-
-## Atenção aos caminhos dos recursos
-
-No estado atual, alguns caminhos informados em `index.html` não correspondem à localização dos arquivos: a folha `styles.css` está em `src/web/`, as imagens estão em `src/web/assets/` e o PDF está em `src/public/docs/`. Ao alterar ou publicar a página, confira esses caminhos para que os recursos sejam carregados corretamente.
