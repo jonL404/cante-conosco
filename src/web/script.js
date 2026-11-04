@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
     pagination: {
       el: ".hero-slider .swiper-pagination",
       clickable: true,
-      dynamicBullets: true,
     },
     autoplay: {
       delay: 5000,
