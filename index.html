@@ -7,17 +7,18 @@
   <meta name="description" content="Portal católico do Padre Alex Nogueira: artigos, programas, orações, cursos bíblicos e materiais gratuitos." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="src/web/assets/styles.css" />
   <link rel="stylesheet" href="pagina-inicial.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">   
+ <link rel="shortcut icon" href="src/web/assets/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     
   <header class="header" id="topo">
     <div class="container header__inner">
-      <a href="#inicio" class="logo"><img src="src/web/Ministério SJ 4.png" alt=""></a>
+      <a href="#inicio" class="logo"><img src="src/web/assets/Ministério SJ 4.png" alt=""></a>
       <nav class="nav" id="nav">
         <a href="#inicio">Início</a>
         <a href="#artigos">Sobre</a>
@@ -38,22 +39,22 @@
       <div class="container">
             <div class="swiper hero-slider">
               <div class="swiper-wrapper">
-                <a href="SOLENIDADE DE TODOS OS SANTOS.pdf" target="_blank" class="swiper-slide hero-slide" aria-label="Ver destaque de queijos">
+                <a href="src/public/docs/SOLENIDADE DE TODOS OS SANTOS.pdf" target="_blank" class="swiper-slide hero-slide" aria-label="Ver destaque de queijos">
                   <picture>
-                    <source media="(max-width: 720px)" srcset="cantecommsjmobile.jpeg" />
-                    <img src="cantecomomsj.png" alt="Destaque de queijos do Ministério SJ" />
+                    <source media="(max-width: 720px)" srcset="src/web/assets/cantecommsjmobile.jpeg" />
+                    <img src="src/web/assets/cantecomomsj.png" alt="Destaque de queijos do Ministério SJ" />
                   </picture>
                 </a>
                 <a href="#" class="swiper-slide hero-slide" aria-label="Ver destaque de mussarela">
                   <picture>
-                    <source media="(max-width: 720px)" srcset="facapartemobile.png" />
-                    <img src="facaparte.png" alt="Destaque de mussarela do Ministério SJ" />
+                    <source media="(max-width: 720px)" srcset="src/web/assets/facapartemobile.png" />
+                    <img src="src/web/assets/facaparte.png" alt="Destaque de mussarela do Ministério SJ" />
                   </picture>
                 </a>
                 <a href="#" class="swiper-slide hero-slide" aria-label="Ver destaque de mussarela">
                   <picture>
-                    <source media="(max-width: 720px)" srcset="ajudemobile.png" />
-                    <img src="ajude.png" alt="Destaque de mussarela do Ministério SJ" />
+                    <source media="(max-width: 720px)" srcset="src/web/assets/ajudemobile.png" />
+                    <img src="src/web/assets/ajude.png" alt="Destaque de mussarela do Ministério SJ" />
                   </picture>
                 </a>
               </div>
@@ -76,7 +77,7 @@
     <section class="section section--soft" id="programas">
       <div class="container programs">
         <div class="programs__feature">
-          <img src="ajudemsj.png" alt="Padre Alex" />
+          <img src="src/web/assets/ajudemsj.png" alt="Padre Alex" />
           <div class="programs__overlay"><h3>Ajude o MSJ</h3><p>O Ministério São José está com Rifa Ativa e Chave Pix/Doações abertas para arrecadarmos fundos e comprarmos nosso próprio violão.
 🎟️ Garanta seu bilhete ou faça sua contribuição!
 
@@ -86,8 +87,8 @@ Sua ajuda faz toda a diferença na nossa missão.</p><button class="btn btn--aju
           <h2>Programas Recentes</h2>
           <p class="muted">Acompanhe os programas de oração e canto</p>
           <div class="programs__grid">
-            <div class="video"><img src="cantecommsj.jpeg" alt="" /><div class="video__info"><h4>Cante com o Ministério</h4><p>Acesse os proximos canticos da missa e cante conosco</p></div></div>
-            <div class="video"><img src="WhatsApp Image 2026-11-04 at 14.28.11.jpeg" alt="" /><div class="video__info"><h4>Reze com a gente</h4><p> O melhor conforto é o que vem da oração. - São Pio de Pietrelcina</p></div></div>
+            <div class="video"><img src="src/web/assets/cantecommsj.jpeg" alt="" /><div class="video__info"><h4>Cante com o Ministério</h4><p>Acesse os proximos canticos da missa e cante conosco</p></div></div>
+            <div class="video"><img src="src/web/assets/reze.jpeg" alt="" /><div class="video__info"><h4>Reze com a gente</h4><p> O melhor conforto é o que vem da oração. - São Pio de Pietrelcina</p></div></div>
           </div>
         </div>
       </div>
@@ -98,7 +99,7 @@ Sua ajuda faz toda a diferença na nossa missão.</p><button class="btn btn--aju
         <div class="center"><span class="eyebrow eyebrow--pill">Faça parte</span><h3 class="title-lg">Vamos servir juntos ao senhor </h3><p class="muted-light2">Cada ato de serviço é uma expressão da nossa gratidão a Deus. – São João Batista</p></div>
         <div class="school">
           <div><h3>Sua voz <span>a serviço do Altar</span></h3><p class="muted-light">O Ministério São José é um coral e ministério de música formado exclusivamente por vozes masculinas. Acreditamos que a música litúrgica é um canal de oração e evangelização, e queremos somar forças para louvar ao Senhor com excelência e devoção.Não há limite de idade nem exigência de experiência prévia — o único critério é o desejo sincero no coração de servir a Deus através do canto e caminhar em fraternidade.Se você sente o chamado para colocar os seus dons a serviço do Reino, o seu lugar é aqui conosco. Venha fazer parte da nossa família!</p><a class=" btn--school" href="#">Saiba mais</a></div>
-          <div class="school__media"><img src="saojose.jpeg" alt="" /><img src="msj.png" alt="" /></div>
+          <div class="school__media"><img src="src/web/assets/saojose.jpeg" alt="" /><img src="src/web/assets/msj.png" alt="" /></div>
         </div>
         
     </section>
@@ -119,7 +120,7 @@ Sua ajuda faz toda a diferença na nossa missão.</p><button class="btn btn--aju
   <footer class="footer">
     <div class="container">
       <div class="footer__grid">
-        <div><a href="#inicio" class="logo"><img src="Ministério SJ (16).png" alt=""></a><div class="socials"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="YouTube"><i class="bi bi-whatsapp"></i></a></div>
+        <div><a href="#inicio" class="logo"><img src="src/web/assets/Ministério SJ footer.png" alt=""></a><div class="socials"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="YouTube"><i class="bi bi-whatsapp"></i></a></div>
         </div>
         <div><h5>Site</h5><a href="#inicio">Início</a><a href="#artigos">Cante com o MSJ</a><a href="#programas">Programas</a></div>
         <div><h5>Conteúdo</h5><a href="#oracoes">Orações</a><a href="#materiais">Materiais</a><a href="#cursos">Cursos</a></div>
