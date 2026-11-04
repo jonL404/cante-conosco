@@ -1,0 +1,31 @@
+:root {
+            
+    --primary: #141162 ; 
+    --primary-light: #f8f8f8;
+    --secondary: #f8f9fa;
+    --text-dark: #141261;
+    --text-light: #555f63;
+    --white: #ffffff;
+            
+    --padding-container: 0 4%;
+    --radius-lg: 25px;
+    --radius-md: 18px;
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.05);
+    --shadow-strong: 0 15px 45px rgba(0, 0, 0, 0.1);
+    
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: var(--white);
+}
+
+.container { width: 100%; margin: 0; padding: var(--padding-container); }
+
+
+        
+a { text-decoration: none; color: inherit; }
