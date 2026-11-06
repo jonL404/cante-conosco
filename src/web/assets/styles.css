@@ -74,3 +74,7 @@ h4 { font-size: var(--font-size-md); }
 .btn--school{background: #d2c3f6; color: var(--color-dark); padding: 10px 25px; border-radius: var(--border-radius-sm); font-weight: 700;}
 .btn--header{background: var(--color-dark); color: var(--color-light);}
 .btn--ajude{background: #d2c3f6; color: var(--color-dark);}
+
+a, button, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+}
