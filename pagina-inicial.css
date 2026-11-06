@@ -370,7 +370,9 @@
     pointer-events: none;
     transition: var(--transition);
   }
-
+  #btn-ajude {
+    display: none;
+  }
   .nav.is-open {
     transform: none;
     opacity: 1;

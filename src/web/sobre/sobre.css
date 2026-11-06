@@ -176,7 +176,7 @@
     display: flex;
   }
 
-  .header__cta {
+  #btn-ajude {
     display: none;
   }
   .nav {
