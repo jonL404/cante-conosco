@@ -329,7 +329,7 @@
   gap: var(--spacing-sm);
   flex-wrap: wrap;
   padding-top: var(--spacing-md);
-  border-top: 1px solid var(--color-border-dark);
+  border-top: 1px solid var(--color-gold);
   font-size: var(--font-size-xs);
 }
 
@@ -342,7 +342,7 @@
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 945px) {
   :root {
     --font-size-xl: 1.8rem;
     --spacing-xl: 4rem;

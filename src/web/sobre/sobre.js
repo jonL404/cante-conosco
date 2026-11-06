@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
       nav.classList.remove("is-open");
       toggle.classList.remove("is-open");
     }))
+  window.addEventListener("scroll", () =>
+    header.classList.toggle("is-scrolled", window.scrollY > 20)
+  );
 });
-
 

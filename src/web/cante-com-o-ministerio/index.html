@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solenidade de Todos os Santos - Cânticos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/src/web/assets/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="/pagina-inicial.css">
+    <link rel="stylesheet" href="/src/web/assets/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 
 </head>
 <body>
+
+    <header class="header" id="topo">
+        <div class="container header__inner">
+            <a href="/index.html#inicio" class="logo"><img src="/src/web/assets/Ministério SJ 4.png" alt="Ministério São José"></a>
+            <nav class="nav" id="nav">
+                <a href="/index.html#inicio">Início</a>
+                <a href="/src/web/sobre/index.html">Sobre</a>
+                <a href="/src/web/cante-com-o-ministerio/index.html">Cante com o ministério</a>
+                <a href="/index.html#oracoes">Orações</a>
+                <a href="/index.html#fazerparte">Fazer parte</a>
+                <a href="/src/web/contato/contato.html">Contato</a>
+            </nav>
+            <a href="https://wa.me/5583987653549?text=Ol%C3%A1%2C%20quero%20fazer%20parte%20do%20MSJ%20e%20servir%20ao%20altar!!%20%F0%9F%A4%A9" target="_blank" class="btn btn--header btn--sm header__cta">Ajude o MSJ</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
 
     <header class="page-header">
         <h1>Solenidade de Todos os Santos</h1>
@@ -199,6 +221,19 @@ De eternal vida é fonte perenal</p>
             </div>
         </div>
     </main>
+    <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div><a href="/index.html#inicio" class="logo"><img src="../assets/Ministério SJ footer.png" alt=""></a><div class="socials"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="YouTube"><i class="bi bi-whatsapp"></i></a></div>
+        </div>
+        <div><h5>Site</h5><a href="../../../index.html">Início</a><a href="../../..//cante-com-o-ministerio/index.html">Cante com o MSJ</a><a href="../../../index.html#programas">Programas</a></div>
+        <div><h5>Conteúdo</h5><a href="#oracoes">Orações</a><a href="../../public/docs/SOLENIDADE DE TODOS OS SANTOS.pdf" target="_blank
+          ">Cânticos</a></div>
+        <div><h5>Contato</h5><a href="/src/web/contato/contato.html">Fale conosco</a><a href="https://wa.me/5583987653549?text=Ol%C3%A1%2C%20quero%20ajudar%20o%20MSJ!">Doações</a><a href="https://wa.me/5583987653549?text=Ol%C3%A1%2C%20quero%20fazer%20parte%20do%20MSJ">Faça parte</a></div>
+      </div>
+      <div class="footer__bottom"><span>© <span id="year"></span> Ministério São José</span><span>Amor em servir</span></div>
+    </div>
+  </footer>
 
     <!-- Estrutura do Modal Oculto -->
     <div class="modal-overlay" id="modalOverlay">

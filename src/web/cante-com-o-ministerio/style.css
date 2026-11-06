@@ -11,21 +11,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+   
 }
-
-body {
-    background-color: var(--bg-light);
-    color: var(--text-dark);
-    line-height: 1.6;
-}
-
 
 .page-header {
     background-color: var(--detail-purple);
-    padding: 50px 5%;
+
+    padding: calc(var(--header-height) + 70px) 5% 70px 5%;
     text-align: center;
-    border-bottom: 5px solid var(--detail-green);
+    border-bottom: 5px solid var(--text-dark);
 }
 
 .page-header h1 {
