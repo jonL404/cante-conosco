@@ -9,7 +9,7 @@ const oracaoDestaque = {
   titulo: "Coroa das Lágrimas de Nossa Senhora",
   categoria: "Consagração",
   descricao: "Medite as dores da Virgem Maria e ofereça, por suas lágrimas, os seus pedidos a Jesus.",
-  imagem: "/src/web/assets/hero-lagrimas.jpg.jpeg",
+  imagem: "../assets/hero-lagrimas.jpg.jpeg",
   alt: "Imagem de Nossa Senhora com uma lágrima, iluminada por velas",
   data: "15 de setembro de 2026",
   texto: [
@@ -27,7 +27,7 @@ const oracoes = [
     titulo: "Ladainha de Nossa Senhora",
     categoria: "Ladainha",
     descricao: "Invoque os títulos de Maria e peça a sua intercessão materna.",
-    imagem: "/src/web/assets/ladainha.jpg.jpeg",
+    imagem: "../assets/ladainha.jpg.jpeg",
     alt: "Altar barroco com imagem coroada de Nossa Senhora, lírios e velas",
     data: "8 de setembro de 2026",
     texto: [
@@ -43,7 +43,7 @@ const oracoes = [
     titulo: "Coroinha de Nossa Senhora",
     categoria: "Coroinha",
     descricao: "Uma oração simples e bela para honrar as virtudes da Virgem Maria.",
-    imagem: "/src/web/assets/coroinha.jpg.jpeg",
+    imagem: "../assets/coroinha.jpg.jpeg",
     alt: "Mãos em oração segurando um terço azul diante de uma imagem de Maria",
     data: "12 de outubro de 2026",
     texto: [
@@ -57,7 +57,7 @@ const oracoes = [
     titulo: "Terço da Misericórdia",
     categoria: "Misericórdia",
     descricao: "Confie na infinita misericórdia de Jesus e reze pelo mundo inteiro.",
-    imagem: "/src/web/assets/misericordia.jpg.jpeg",
+    imagem: "../assets/misericordia.jpg.jpeg",
     alt: "Crucifixo iluminado por raios vermelhos e brancos vindos de um vitral",
     data: "3 de novembro de 2026",
     texto: [
